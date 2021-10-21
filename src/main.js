@@ -8,6 +8,10 @@ import '../src/css/iconfont.css'
 import FastClick from 'fastclick'
 FastClick.attach(document.body)
 Vue.config.productionTip = false
+//swiper的引入
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper,)
 
 /* eslint-disable no-new */
 new Vue({
