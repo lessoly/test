@@ -48,7 +48,9 @@ export default{
 <style scoped>
 .header-swiper{
     width: 100%;
-    height: 2rem;
+    height: 0;
+    background-color: #ccc;
+    padding-bottom: 26.67%;
 }
 img{
     width: 100%;
