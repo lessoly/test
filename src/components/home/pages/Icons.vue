@@ -7,6 +7,7 @@
                     <p>{{item.name}}</p>
                 </div>
             </swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
     </div>
 </template>
@@ -15,13 +16,15 @@
         data(){
             return{
                 swiperOptions: {
-               
+            //    pagination: {
+            //         el: '.swiper-pagination',
+            //     }
         },
                 iconsList:[
                     {
                         id:'01',
                         imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票1'
+                        name:'景点门票111111111111'
                     },{
                         id:'02',
                         imgUrl:require('@/assets/jingdian1.jpg'),
@@ -76,17 +79,21 @@
         }
     }
 </script>
-<style scoped>
+<style scoped lang='stylus'>
+@import '~css/common.styl'
+.icons{
+    background-color: white;
+}
 .icon-items{
     width:25%;
     padding-bottom: 25%;
-    /* background-color: #ccc; */
+    /* background-color: #fff; */
     height: 0rem;
     float: left;
 }
 .icon-items img{
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 1rem;
+    height: 1rem;
     margin: 0 auto;
     display: block;
     padding-top: .2rem;
@@ -96,5 +103,6 @@
     text-align: center;
     color: #212121;
     margin-top: .1rem;
+    textOverFlow();
 }
 </style>
