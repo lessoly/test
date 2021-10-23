@@ -12,7 +12,9 @@ Vue.config.productionTip = false
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper,)
-
+//axios的引入
+import axios from 'axios'
+Vue.prototype.$http=axios
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

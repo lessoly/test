@@ -15,27 +15,6 @@ npm install vue-awesome-swiper@3 --save-dev
 export default{
     data(){
         return{
-            swiperList:[
-                {
-                    id:'01',
-                    imgUrl:require("@/assets/1.jpg")
-                },{
-                     id:'02',
-                    imgUrl:require("@/assets/2.jpg")
-                },{
-                     id:'03',
-                    imgUrl:require("@/assets/3.jpg")
-                },{
-                     id:'04',
-                    imgUrl:require("@/assets/4.jpeg")
-                },{
-                     id:'05',
-                    imgUrl:require("@/assets/5.jpg")
-                },{
-                     id:'06',
-                    imgUrl:require("@/assets/6.jpg")
-                }
-            ],
             swiperOptions: {
                 pagination: {
                     el: '.swiper-pagination',
@@ -43,7 +22,8 @@ export default{
                 },loop:true
         }
     }
-}}
+},
+    props:["swiperList"]}
 </script>
 <style scoped>
 .header-swiper{

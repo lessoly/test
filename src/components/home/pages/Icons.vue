@@ -13,56 +13,14 @@
 </template>
 <script>
     export default{
+        props:["iconsList"],
         data(){
             return{
                 swiperOptions: {
             //    pagination: {
             //         el: '.swiper-pagination',
             //     }
-        },
-                iconsList:[
-                    {
-                        id:'01',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票111111111111'
-                    },{
-                        id:'02',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'必游榜单2'
-                    },{
-                        id:'03',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'夏日玩水3'
-                    },{
-                        id:'04',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票4'
-                    },{
-                        id:'05',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票5'
-                    },{
-                        id:'06',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票6'
-                    },{
-                        id:'07',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票7'
-                    },{
-                        id:'08',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票8'
-                    },{
-                        id:'09',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票9'
-                    },{
-                        id:'10',
-                        imgUrl:require('@/assets/jingdian1.jpg'),
-                        name:'景点门票10'
-                    }
-                ]
+        }
             }
         },
         computed:{

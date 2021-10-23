@@ -16,41 +16,9 @@
 </template>
 <script>
 export default{
+    props:["HotList"],
     data(){
         return{
-            HotList:[
-                {
-                    id:'01',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫故宫故宫故宫故宫故宫故宫故宫',
-                    p2:'￥10'
-                },{
-                    id:'02',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫',
-                    p2:'￥20'
-                },{
-                    id:'03',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫',
-                    p2:'￥30'
-                },{
-                    id:'04',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫',
-                    p2:'￥40'
-                },{
-                    id:'05',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫',
-                    p2:'￥50'
-                },{
-                    id:'06',
-                    imgUrl:require("@/assets/1.jpg"),
-                    p1:'故宫',
-                    p2:'￥60'
-                }
-            ]
         }
     }
 }
