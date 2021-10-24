@@ -9,8 +9,8 @@
                     <img :src="item.imgUrl">
                 </div>
                 <div class="vacation-msg">
-                    <p>{{item.msg1}}</p>
-                    <p>{{item.msg2}}</p>
+                    <p>{{item.site}}</p>
+                    <p>{{item.info}}</p>
                 </div>
             </li>
         </ul>

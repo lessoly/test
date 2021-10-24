@@ -2,14 +2,14 @@
     <div ref="container" class="container">
         <div>
             <div class="hot">
-        <div class="hot-title">
-            热门城市
-        </div>
-        <ul class="hot-list">
-            <li class="hot-item border-bottom" v-for="item in hotCityList" :key="item.id">
-                {{item.cityName}}
-            </li>
-        </ul>
+                <div class="hot-title">
+                    热门城市
+                </div>
+                <ul class="hot-list">
+                    <li class="hot-item border-bottom" @click="changeCityName(item.cityName)" v-for="item in hotCityList" :key="item.id">
+                        {{item.cityName}}
+                    </li>
+                </ul>
             </div>
             <div class="sort">
         <div class="sort-title">
@@ -23,7 +23,7 @@
                 <div v-for="item in cityList" :key="item.index" :ref="item.title">
                     <div class="list-title">{{item.title}}</div>
                     <ul class="list-list">
-                        <li class="list-item border-bottom"  v-for="i in item.lists" :key="i.index">{{i}}</li>
+                        <li class="list-item border-bottom"  v-for="i in item.lists" :key="i.index" @click="changeCityName(i)">{{i}}</li>
                     </ul>
                 </div>
              </div>
@@ -32,6 +32,7 @@
 </template>
 <script>
 import BScroll from 'better-scroll'
+import {mapMutations} from 'vuex'
 export default{
     props:["cityList","hotCityList"],
     data(){
@@ -69,10 +70,15 @@ export default{
     },
     methods:{
         changeSort(sortName){
-            console.log(sortName)
-            console.log(this.$refs[sortName][0])
+            // console.log(sortName)
+            // console.log(this.$refs[sortName][0])
             this.scroll.scrollToElement(this.$refs[sortName][0])
-        }
+        },
+        changeCityName(cityName){
+            this.changeCity(cityName)
+            this.$router.push('/')
+        },
+        ...mapMutations(['changeCity'])
     },
     mounted(){
         let container=this.$refs['container']
@@ -166,9 +172,9 @@ export default{
 .list-list:after{
     content: '';
     position: absolute;
-    width: 25%;
+    width: 0;
     height: 100%;
-    left: 50%;
+    left: 75%;
     border-right: .02rem solid #ddd;
 }
 .list-item{

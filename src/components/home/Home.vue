@@ -19,21 +19,35 @@ import Activity from './pages/Activity.vue'
 import Hot from './pages/Hot.vue'
 import Like from './pages/Like.vue';
 import Vacation from './pages/Vacation.vue';
+import {mapState} from 'vuex'
 export default{
     components:{
         Header,Swiper,Icons,
         Location,Activity,Hot,Like,
         Vacation
     },
+    computed:{
+        ...mapState(['city'])
+    },
     mounted(){
         this.$http.get("/api/HomeData.json").then(res=>{
             console.log(res.data.data);
-            const data=res.data.data[0];
-            this.swiperList=data.swiperList;
-            this.LikeList=data.LikeList;
-            this.HotList=data.HotList;
-            this.VacationList=data.VacationList
-            this.iconsList=data.iconsList
+            const data=res.data.data;
+            data.forEach((item,index) => {
+                if(item.city==this.city){
+                    console.log(item)
+                    this.swiperList=item.swiperList;
+                    this.LikeList=item.LikeList;
+                    this.HotList=item.HotList;
+                    this.VacationList=item.VacationList
+                    this.iconsList=item.iconsList
+                }
+            });
+            // this.swiperList=data.swiperList;
+            // this.LikeList=data.LikeList;
+            // this.HotList=data.HotList;
+            // this.VacationList=data.VacationList
+            // this.iconsList=data.iconsList
         })
     },
     data(){

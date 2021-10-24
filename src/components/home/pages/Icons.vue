@@ -3,8 +3,8 @@
         <swiper :options='swiperOptions'>
             <swiper-slide v-for="outitem in pages" :key="outitem.index">
                 <div class="icon-items" v-for="item in outitem" :key="item.id">
-                    <img :src="item.imgUrl">
-                    <p>{{item.name}}</p>
+                    <img :src="item.imgSrc">
+                    <p>{{item.info}}</p>
                 </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>

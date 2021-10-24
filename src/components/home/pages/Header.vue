@@ -8,10 +8,18 @@
         输出城市/景点/游玩主题
     </div>
     <div class="header-right">
-        <router-link to='/city'>北京<span class="iconfont">&#xe62b;</span></router-link>
+        <router-link to='/city'>{{city}}<span class="iconfont">&#xe62b;</span></router-link>
     </div>
 </div>
 </template>
+<script>
+import {mapState} from 'vuex'
+export default{
+    computed:{
+        ...mapState(['city'])
+    }
+}
+</script>
 <style scoped lang='stylus'>
 @import '~@/css/var.styl'
 .header{

@@ -7,13 +7,14 @@
         <ul class="like-list">
             <li class="like-item border-bottom" v-for="item in LikeList" :key="item.id">
                 <div class="item-left">
-                    <img :src="item.imgUrl">
+                    <img :src="item.imgSrc">
                 </div>
                 <div class="item-right">
-                    <div class="item-title">{{item.title}}</div>
-                    <div class="item-pinglun">{{item.pinglun}}</div>
+                    <div class="item-title">{{item.site}}</div>
+                    <div class="item-pinglun">{{item.introduction}}</div>
+                    <div class="star">{{item.judge}}</div>
                     <div class="item-price">
-                        <span><b class="item-mark">{{item.mark}}</b>起</span>
+                        <span><b class="item-mark">{{item.price}}</b>起</span>
                         <span class="item-price-right">{{item.location}}</span>
                     </div>
                 </div>
@@ -85,5 +86,8 @@ export default{
     position: absolute;
     right: 0;
     bottom: 0;
+}
+.like-list .item-right .star{
+    color: #ff8300;
 }
 </style>

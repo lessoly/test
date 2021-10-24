@@ -1,144 +1,347 @@
 {
-    "data":[
-        {
-            "city":"北京",
-            "swiperList":[
-                {
-                    "id":"01",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg"
-                },{
-                     "id":"02",
-                    "imgUrl":"http://localhost:8080/static/img/2.jpg"
-                },{
-                     "id":"03",
-                    "imgUrl":"http://localhost:8080/static/img/3.jpg"
-                },{
-                      "id":"04",
-                    "imgUrl":"http://localhost:8080/static/img/4.jpeg"
-                },{
-                      "id":"05",
-                      "imgUrl":"http://localhost:8080/static/img/5.jpg"
-                },{
-                      "id":"06",
-                      "imgUrl":"http://localhost:8080/static/img/6.jpg"
-   }
-            ],"LikeList":[
-                {
-                    "id":"01",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "title":"金海湖风景区1",
-                    "pinglun":"1314条评论",
-                    "mark":"￥18.8",
-                    "location":"平谷区"
-                },{
-                    "id":"02",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "title":"金海湖风景区2",
-                    "pinglun":"1314条评论",
-                    "mark":"￥18.8",
-                    "location":"平谷区"
-                },{
-                    "id":"03",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "title":"金海湖风景区3",
-                    "pinglun":"1314条评论",
-                    "mark":"￥18.8",
-                    "location":"平谷区"
-                }
-            ],"VacationList":[
-                {
-                    "id":"01",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "msg1":"漂流勇进，烧烤露营1",
-                    "msg2":"轻松水上漂，任我乐逍遥"
-                },{
-                    "id":"02",
-                    "imgUrl":"http://localhost:8080/static/img/2.jpg",
-                    "msg1":"漂流勇进，烧烤露营2",
-                    "msg2":"轻松水上漂，任我乐逍遥"
-                },{
-                    "id":"03",
-                    "imgUrl":"http://localhost:8080/static/img/3.jpg",
-                    "msg1":"漂流勇进，烧烤露营3",
-                    "msg2":"轻松水上漂，任我乐逍遥"
-                }
-            ],"HotList":[
-                {
-                    "id":"01",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "p1":"故宫故宫故宫故宫故宫故宫故宫故宫",
-                    "p2":"￥10"
-                },{
-                    "id":"02",
-                    "imgUrl":"http://localhost:8080/static/img/2.jpg",
-                    "p1":"故宫",
-                    "p2":"￥20"
-                },{
-                    "id":"03",
-                    "imgUrl":"http://localhost:8080/static/img/3.jpg",
-                    "p1":"故宫",
-                    "p2":"￥30"
-                },{
-                    "id":"04",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "p1":"故宫",
-                    "p2":"￥40"
-                },{
-                    "id":"05",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "p1":"故宫",
-                    "p2":"￥50"
-                },{
-                    "id":"06",
-                    "imgUrl":"http://localhost:8080/static/img/1.jpg",
-                    "p1":"故宫",
-                    "p2":"￥60"
-                }
-            ],"iconsList":[
-                {
-                    "id":"01",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票111111111111"
-                },{
-                    "id":"02",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票2"
-                },{
-                    "id":"03",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票3"
-                },{
-                    "id":"04",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票4"
-                },{
-                    "id":"05",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票5"
-                },{
-                    "id":"06",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票6"
-                },{
-                    "id":"07",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票7"
-                },{
-                    "id":"08",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票8"
-                },{
-                    "id":"09",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票9"
-                },{
-                    "id":"10",
-                    "imgUrl":"/api/img/jingdian1.jpg",
-                    "name":"景点门票10"
-                }
-            ]
-        },{
-            "city":"上海"
-        }
+    "data": [
+      {
+        "city": "南京",
+        "swiperList": [
+          {
+            "id": "01",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "02",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg"
+          },
+          {
+            "id": "03",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "04",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "05",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          }
+        ],
+        "iconsList": [
+          {
+            "id": "01",
+            "imgSrc": "https://picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png",
+            "info": "南京民宿客栈"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://picbed.qunarzz.com/83af731055e121a3251690b225327b56.png",
+            "info": "专车自驾"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://picbed.qunarzz.com/5b6737be49ca243072ca614f07803b83.png",
+            "info": "赚钱-信用卡"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://picbed.qunarzz.com/1e107321f5396ea4994cd832232ecf8a.png",
+            "info": "旅游团购"
+          },
+          {
+            "id": "05",
+            "imgSrc": "https://picbed.qunarzz.com/c65b3bb7571a6bd62df669213e44b84d.png",
+            "info": "一日游"
+          },
+          {
+            "id": "06",
+            "imgSrc": "https://picbed.qunarzz.com/f6bb08a239ce1b038204120a8d1e4669.png",
+            "info": " 特惠酒店"
+          },
+          {
+            "id": "07",
+            "imgSrc": "https://picbed.qunarzz.com/3a08f360e958ccb2b947049387873ace.png",
+            "info": "借钱"
+          },
+          {
+            "id": "08",
+            "imgSrc": "https://picbed.qunarzz.com/19b4f6d2fabd617789fa5aad65b249da.png",
+            "info": "白金卡"
+          },
+          {
+            "id": "09",
+            "imgSrc": "https://img1.qunarzz.com/order/comp/2007/23/734c3c62d2adce02.png",
+            "info": "行程设计"
+          },
+          {
+            "id": "10",
+            "imgSrc": "https://picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png",
+            "info": "周边短途"
+          }
+        ],
+        "LikeList": [
+          {
+            "id": "01",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1603/85/85aa0c000578a01e90.water.jpg_256x160_649a8b35.jpg",
+            "site": "拙政园",
+            "arguments": "11111",
+            "introduction": "庭院错落，花木为胜，天下园林之典范",
+            "price": "￥70",
+            "judge": "★★★★★"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1508/f7/f7c3be996152011c.img.jpg_256x160_d6dc89c8.jpg",
+            "site": "南京总统府",
+            "arguments": "22222",
+            "introduction": "了解中国近代史，切记勿忘国耻",
+            "price": "￥62",
+            "judge": "★★★★☆"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1601/d4/d4f1a62140b9d93590.img.jpg_256x160_ada8baf1.jpg",
+            "site": "牛首山文化旅游区",
+            "arguments": "33333",
+            "introduction": "佛教牛头禅ssssssssssssssssssssss的发祥地",
+            "price": "￥85",
+            "judge": "★★★☆☆"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/2005/5c/5c329eda7396ce64a3.water.jpg_256x160_31264d11.jpg",
+            "site": "中华恐龙园",
+            "arguments": "44111",
+            "introduction": "穿越“东方侏罗纪” | 带娃一起去冒险",
+            "price": "￥250",
+            "judge": "★★★★☆"
+          }
+        ],
+        "VacationList": [
+          {
+            "id": "01",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg",
+            "site": "避暑胜地-重庆",
+            "info": "为什么是重庆，我也不知道"
+          },
+          {
+            "id": "02",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg",
+            "site": "避暑胜地-武汉",
+            "info": "为什么是武汉，我也不知道"
+          },
+          {
+            "id": "03",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg",
+            "site": "避暑胜地-南昌",
+            "info": "为什么是南昌，我也不知道"
+          },
+          {
+            "id": "04",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg",
+            "site": "避暑胜地-长沙",
+            "info": "四大火炉指的是重庆、武汉、南昌、长沙这四个城市，这四个城市的地理位置都位于长江流域，夏季气候相较于其他城市明显更加炎热，但是随着气候的变化，各个城市的夏日炎热程度排名也会有所变化"
+          }
+        ],
+        "HotList": [
+          {
+            "id": "01",
+            "imgSrc": "https://imgs.qunarzz.com/p/p70/1809/e7/4941057a6aae702.jpg_256x160_9fee6ccb.jpg",
+            "location": "南京-丽江",
+            "time": "5天自由行",
+            "price": "￥2647"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://imgs.qunarzz.com/p/p12/201302/28/83ba8aa24931fbe493835fbb.jpg_256x160_7331b3d5.jpg",
+            "location": "南京-稻城亚丁",
+            "time": "7天跟团旅",
+            "price": "￥3792"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://imgs.qunarzz.com/p/p67/1512/a2/0ebfcd965b9391f7.jpg_256x160_04d5813d.jpg",
+            "location": "南京sdasdasdasd-三亚",
+            "time": "5天自由行",
+            "price": "￥4260"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://imgs.qunarzz.com/p/p19/1809/b9/2a3d362aabcbb02.jpg_256x160_28907832.jpg",
+            "location": "南京-sdasdasdasd重庆",
+            "time": "4天自由行",
+            "price": "￥2090"
+          }
+        ]
+      },
+      {
+        "city": "上海",
+        "swiperList": [
+          {
+            "id": "01",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "02",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg"
+          },
+          {
+            "id": "03",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "04",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          },
+          {
+            "id": "05",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg"
+          }
+        ],
+        "iconsList": [
+          {
+            "id": "01",
+            "imgSrc": "https://picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png",
+            "info": "上海信息"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://picbed.qunarzz.com/83af731055e121a3251690b225327b56.png",
+            "info": "专车自驾"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://picbed.qunarzz.com/5b6737be49ca243072ca614f07803b83.png",
+            "info": "赚钱-信用卡"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://picbed.qunarzz.com/1e107321f5396ea4994cd832232ecf8a.png",
+            "info": "旅游团购"
+          },
+          {
+            "id": "05",
+            "imgSrc": "https://picbed.qunarzz.com/c65b3bb7571a6bd62df669213e44b84d.png",
+            "info": "一日游"
+          },
+          {
+            "id": "06",
+            "imgSrc": "https://picbed.qunarzz.com/f6bb08a239ce1b038204120a8d1e4669.png",
+            "info": " 特惠酒店"
+          },
+          {
+            "id": "07",
+            "imgSrc": "https://picbed.qunarzz.com/3a08f360e958ccb2b947049387873ace.png",
+            "info": "借钱"
+          },
+          {
+            "id": "08",
+            "imgSrc": "https://picbed.qunarzz.com/19b4f6d2fabd617789fa5aad65b249da.png",
+            "info": "白金卡"
+          },
+          {
+            "id": "09",
+            "imgSrc": "https://img1.qunarzz.com/order/comp/2007/23/734c3c62d2adce02.png",
+            "info": "行程设计"
+          },
+          {
+            "id": "10",
+            "imgSrc": "https://picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png",
+            "info": "周边短途"
+          }
+        ],
+        "LikeList": [
+          {
+            "id": "01",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1603/85/85aa0c000578a01e90.water.jpg_256x160_649a8b35.jpg",
+            "site": "上海拙政园",
+            "arguments": "11111",
+            "introduction": "庭院错落，花木为胜，天下园林之典范",
+            "price": "￥70",
+            "judge": "★★★★★"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1508/f7/f7c3be996152011c.img.jpg_256x160_d6dc89c8.jpg",
+            "site": "南京总统府",
+            "arguments": "22222",
+            "introduction": "了解中国近代史，切记勿忘国耻",
+            "price": "￥62",
+            "judge": "★★★★☆"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/1601/d4/d4f1a62140b9d93590.img.jpg_256x160_ada8baf1.jpg",
+            "site": "牛首山文化旅游区",
+            "arguments": "33333",
+            "introduction": "佛教牛头禅ssssssssssssssssssssss的发祥地",
+            "price": "￥85",
+            "judge": "★★★☆☆"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://img1.qunarzz.com/sight/p0/2005/5c/5c329eda7396ce64a3.water.jpg_256x160_31264d11.jpg",
+            "site": "中华恐龙园",
+            "arguments": "44111",
+            "introduction": "穿越“东方侏罗纪” | 带娃一起去冒险",
+            "price": "￥250",
+            "judge": "★★★★☆"
+          }
+        ],
+        "VacationList": [
+          {
+            "id": "01",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg",
+            "site": "避暑胜地-重庆",
+            "info": "为什么是重庆，我也不知道"
+          },
+          {
+            "id": "02",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg",
+            "site": "避暑胜地-武汉",
+            "info": "为什么是武汉，我也不知道"
+          },
+          {
+            "id": "03",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg",
+            "site": "避暑胜地-南昌",
+            "info": "为什么是南昌，我也不知道"
+          },
+          {
+            "id": "04",
+            "imgUrl": "http://imgs.qunarzz.com/vs_ceph_vcimg/79faa5a73731e84a7731db49d5baa91e.jpeg",
+            "site": "避暑胜地-长沙",
+            "info": "四大火炉指的是重庆、武汉、南昌、长沙这四个城市，这四个城市的地理位置都位于长江流域，夏季气候相较于其他城市明显更加炎热，但是随着气候的变化，各个城市的夏日炎热程度排名也会有所变化"
+          }
+        ],
+        "HotList": [
+          {
+            "id": "01",
+            "imgSrc": "https://imgs.qunarzz.com/p/p70/1809/e7/4941057a6aae702.jpg_256x160_9fee6ccb.jpg",
+            "location": "南京-丽江",
+            "time": "5天自由行",
+            "price": "￥2647"
+          },
+          {
+            "id": "02",
+            "imgSrc": "https://imgs.qunarzz.com/p/p12/201302/28/83ba8aa24931fbe493835fbb.jpg_256x160_7331b3d5.jpg",
+            "location": "南京-稻城亚丁",
+            "time": "7天跟团旅",
+            "price": "￥3792"
+          },
+          {
+            "id": "03",
+            "imgSrc": "https://imgs.qunarzz.com/p/p67/1512/a2/0ebfcd965b9391f7.jpg_256x160_04d5813d.jpg",
+            "location": "南京sdasdasdasd-三亚",
+            "time": "5天自由行",
+            "price": "￥4260"
+          },
+          {
+            "id": "04",
+            "imgSrc": "https://imgs.qunarzz.com/p/p19/1809/b9/2a3d362aabcbb02.jpg_256x160_28907832.jpg",
+            "location": "南京-sdasdasdasd重庆",
+            "time": "4天自由行",
+            "price": "￥2090"
+          }
+        ]
+      }
     ]
-}
+  }
+  

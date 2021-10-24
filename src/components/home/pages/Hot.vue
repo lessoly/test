@@ -7,9 +7,10 @@
         </div>
         <ul class="hot-list">
             <li class="hot-item" v-for="item in HotList" :key="item.id">
-                <img :src="item.imgUrl">
-                <p>{{item.p1}}</p>
-                <p><span class="hot-mark">{{item.p2}}</span>起</p>
+                <img :src="item.imgSrc">
+                <p>{{item.location}}</p>
+                <p>{{item.time}}</p>
+                <p><span class="hot-mark">{{item.price}}</span>起</p>
             </li>
         </ul>
     </div>
