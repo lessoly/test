@@ -29,8 +29,9 @@ export default{
     computed:{
         ...mapState(['city'])
     },
-    mounted(){
-        this.$http.get("/api/HomeData.json").then(res=>{
+    methods:{
+        getdata(){
+            this.$http.get("/api/HomeData.json").then(res=>{
             console.log(res.data.data);
             const data=res.data.data;
             data.forEach((item,index) => {
@@ -43,12 +44,18 @@ export default{
                     this.iconsList=item.iconsList
                 }
             });
-            // this.swiperList=data.swiperList;
-            // this.LikeList=data.LikeList;
-            // this.HotList=data.HotList;
-            // this.VacationList=data.VacationList
-            // this.iconsList=data.iconsList
         })
+        }
+    },
+    mounted(){
+        this.getdata()
+        this.changeCity=this.city
+    },
+    activated(){
+        if(this.city != this.changeCity){
+            this.getdata()
+            this.changeCity=this.city
+        }
     },
     data(){
         return{
@@ -56,7 +63,8 @@ export default{
             LikeList:[],
             VacationList:[],
             HotList:[],
-            iconsList:[]
+            iconsList:[],
+            changeCity:''
         }
     }
 }
