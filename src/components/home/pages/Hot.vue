@@ -54,7 +54,7 @@ export default{
     font-weight: normal;
 }
 .hot-list{
-    /* display: flex; */
+    width: 100%;
     overflow-x: scroll;
     overflow-y:hidden;
     white-space: nowrap;

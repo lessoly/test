@@ -83,7 +83,7 @@ export default{
     mounted(){
         let container=this.$refs['container']
         //简直是踩了狗屎运，直接加了个observeDOM:true直接就能用了
-        this.scroll=new BScroll(container,{ observeDOM: true })
+        this.scroll=new BScroll(container,{ observeDOM: true,click: true })
     }
 }
 </script>
